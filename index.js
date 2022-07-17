@@ -19,21 +19,21 @@ function produceReport(){
 
     dailyIncome = sumData * 45;
 
-    document.getElementById("outputData").innerHTML += "<Br>"
+    document.getElementById("dataOutput").innerHTML += "<Br>"
 
-    document.getElementById("outputData").innerHTML += "<hr>"
+    document.getElementById("dataOutput").innerHTML += "<hr>"
 
-    document.getElementById("outputData").innerHTML += "<p>Your total daily income is Ksh. " + dailyIncome + " </p>";
+    document.getElementById("dataOutput").innerHTML += "<p>Your total daily income is Ksh. " + dailyIncome + " </p>";
 
-    document.getElementById("outputData").innerHTML += "<hr>"
+    document.getElementById("dataOutput").innerHTML += "<hr>"
 
     weeklyIncome = dailyIncome * 7;
 
-    document.getElementById("outputData").innerHTML += "<p>Your total weekly income is Ksh. " + weeklyIncome + " </p>";
+    document.getElementById("dataOutput").innerHTML += "<p>Your total weekly income is Ksh. " + weeklyIncome + " </p>";
 
-    document.getElementById("outputData").innerHTML += "<hr>"
+    document.getElementById("dataOutput").innerHTML += "<hr>"
 
-    document.getElementById("outputData").innerHTML += "<Br>"
+    document.getElementById("dataOutput").innerHTML += "<Br>"
 
 
 
@@ -65,15 +65,15 @@ function produceReport(){
     document.getElementById("dataOutput").innerHTML += "<p> Your total income for December is Ksh. " + incomeDecember + " </p>"
 
 
-    document.getElementById("outputData").innerHTML += "<Br>"
+    document.getElementById("dataOutput").innerHTML += "<Br>"
 
-    document.getElementById("outputData").innerHTML += "<hr>"
+    document.getElementById("dataOutput").innerHTML += "<hr>"
 
     incomeInLeapYear = dailyIncome * 366;
 
-    document.getElementById("outputData").innerHTML += "<p>Your total income in a leap year is Ksh. " + incomeInLeapYear + " </p>";
+    document.getElementById("dataOutput").innerHTML += "<p>Your total income in a leap year is Ksh. " + incomeInLeapYear + " </p>";
 
-    document.getElementById("outputData").innerHTML += "<hr>"
+    document.getElementById("dataOutput").innerHTML += "<hr>"
 
-    document.getElementById("outputData").innerHTML += "<Br>"
+    document.getElementById("dataOutput").innerHTML += "<Br>"
 }
