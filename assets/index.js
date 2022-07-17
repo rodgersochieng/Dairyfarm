@@ -8,13 +8,13 @@ function produceReport(){
     data[2] = data["Shed C"] = parseInt(document.getElementById("Shed C").value);
     data[3] = data["Shed D"] = perseInt(document.getElementById("Shed D").value);
 
-    let sumData = data.Shed A + data.Shed B + data.Shed C + data.Shed D;
+    let sumData = data.Shed_A + data.Shed_B + data.Shed_C + data.Shed_D;
 
     document.getElementById("dataOutput").innerHTML += "<Br>"
-    document.getElementById("dataOutput").innerHTML += "<p> Your production in Shed A is" + data.Shed A + "Litres Per Day </p>";
-    document.getElementById("dataOutput").innerHTML += "<p> Your production in Shed B is" + data.Shed B + "Litres Per Day </p>";
-    document.getElementById("dataOutput").innerHTML += "<p> Your production in Shed C is" + data.Shed C + "Litres Per Day </p>";
-    document.getElementById("dataOutput").innerHTML += "<p> Your production in Shed D is" + data.Shed D + "Litres Per Day </p>";
+    document.getElementById("dataOutput").innerHTML += "<p> Your production in Shed A is" + data.Shed_A + "Litres Per Day </p>";
+    document.getElementById("dataOutput").innerHTML += "<p> Your production in Shed B is" + data.Shed_B + "Litres Per Day </p>";
+    document.getElementById("dataOutput").innerHTML += "<p> Your production in Shed C is" + data.Shed_C + "Litres Per Day </p>";
+    document.getElementById("dataOutput").innerHTML += "<p> Your production in Shed D is" + data.Shed_D + "Litres Per Day </p>";
      
 
     document.getElementById("dataOutput").innerHTML += "<p> Your total production per day is" + sumData + "Litres per day </p>";
