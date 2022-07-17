@@ -8,15 +8,15 @@
     <link href="index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div>
+    <Section>
         <h1>Milk monitor</h1>
         <div class="produce">
         <div class="Data">
-            <form action = "submit" onsubmit="produceReports()">
-                <div id="Csheds">
+              <form action = "submit" onsubmit="produceReports()">
+                 <div id="Csheds">
                     <label for="Shed A"> Shed A: Milk (Ltrs)</label>
                     <input id="Shed A" type="number" min="0" required>
-                 </div>
+                  </div>
 
                    <div class="Csheds">
                    <label for="Shed B"> Shed B: Milk (Ltrs)</label>
@@ -31,23 +31,16 @@
                   <div id="Csheds">
                     <lebel for="Shed D"> Shed D: Milk (Ltrs)</lebel>
                     <input id="Shed D" type="number" min="0" required>
-
                   </div>
+                  <button type="submit">submit</button>
+                  <button id="refresh" type="refresh" onclick="refreshPage();">Refresh</button>
 
 
 
+                 </form>
 
-
-
-                 </div>
-
-        </div>
-
-        </div>
-
-
-
-
+             </div>
+         </div>    
 
 
 
@@ -60,7 +53,11 @@
 
 
 
-    </div>
+
+
+
+
+    </Section>
     
 </body>
 </html>
