@@ -1,4 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: greenyellow;
+}
+#refresh {
+    color: orange;
+}
+*{
+    background-color: lemonchiffon;
 }
