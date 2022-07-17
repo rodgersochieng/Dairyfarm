@@ -65,11 +65,17 @@ function produceReport(){
 
 
 
+    document.getElementById("dataOutput").innerHTML += "<Br>"
 
+    document.getElementById("dataOutput").innerHTML += "<hr>"
 
+    incomeInLeapYear = dailyIncome * 366;
 
+    document.getElementById("dataOutput").innerHTML += "<p>Your total income in a leap year is Ksh. " + incomeInLeapYear + " </p>";
 
+    document.getElementById("dataOutput").innerHTML += "<hr>"
 
+    document.getElementById("dataOutput").innerHTML += "<Br>"
 
 
 
