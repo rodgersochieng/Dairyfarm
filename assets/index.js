@@ -1,12 +1,12 @@
 function produceReport(){
 
-    event.preventDefault();
+    Event.preventDefault();
     let data =[];
 
-    data[0] = data["Shed A"] = perseInt(document.getElementById("Shed A").value);
-    data[1] = data["Shed B"] = perseInt(document.getElementById("Shed B").value);
-    data[2] = data["Shed C"] = parseInt(document.getElementById("Shed C").value);
-    data[3] = data["Shed D"] = perseInt(document.getElementById("Shed D").value);
+    data[0] = data["Shed A"] = perseInt(document.getElementById("Shed_A").value);
+    data[1] = data["Shed B"] = perseInt(document.getElementById("Shed_B").value);
+    data[2] = data["Shed C"] = parseInt(document.getElementById("Shed_C").value);
+    data[3] = data["Shed D"] = perseInt(document.getElementById("Shed_D").value);
 
     let sumData = data.Shed_A + data.Shed_B + data.Shed_C + data.Shed_D;
 
