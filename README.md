@@ -3,12 +3,11 @@ Dairyfarm
 
 
 Table of Contents
+
 Description
-
 Technology Used
-
 Licence
-Authors Info
+
 Description
 This is a website designed to give the output of dairy milk production and the income of Dairyfarm.
 
