@@ -1,4 +1,11 @@
 
 *{
-    background-color: rgb(17, 189, 132);
+    background-color: rgba(254, 245, 255, 0.5);
+    margin-left: 5px;
+}
+button {
+    margin-top: 50px;
+    background-color: darkgray;
+    padding: 5px 5px;
+    
 }

@@ -1,6 +1,6 @@
 function produceReport(){
 
-    Event.preventDefault();
+    event.preventDefault();
     let data =[];
 
     data[0] = data["Shed A"] = perseInt(document.getElementById("Shed_A").value);

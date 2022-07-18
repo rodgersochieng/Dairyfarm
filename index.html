@@ -6,56 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dairyfarm milk monitor</title>
     <link href="./assets/index.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-    <Section>
-        <h1>Milk monitor</h1>
-        <h3> Key inn the data to receive the output</h3>
-        <div class="produce">
-        <div class="Data">
-              <form action = "submit" onsubmit="produceReport();">
-                 <div id="Csheds">
-                    <label for="Shed A"> Shed A: Milk (Ltrs)</label>
-                    <input id="Shed_A" type="number" min="0" required>
+  </head>
+    <body>
+      <Section>
+       <h1>Milk monitor</h1>
+       <h3> Key inn the data to receive the output</h3>
+       <div class="produce">
+           <div class="Data">
+             <form action = "submit" onsubmit="produceReport();">
+                <div id="Csheds">
+                  <label for="Shed A"> Shed A: Milk (Ltrs)</label>
+                  <input id="Shed_A" type="number" min="0" required>
+                 </div>
+
+                  <div class="Csheds">
+                    <label for="Shed B"> Shed B: Milk (Ltrs)</label>
+                    <input id="Shed_B" type="number" min="0" required>
                   </div>
 
-                   <div class="Csheds">
-                   <label for="Shed B"> Shed B: Milk (Ltrs)</label>
-                   <input id="Shed_B" type="number" min="0" required>
-                   </div>
+                    <div id="Csheds">
+                       <label for="Shed C"> Shed C: Milk (Ltrs)</label>
+                       <input id="Shed_C" type="number" min="0" required>
+                       </div>
 
-                  <div id="Csheds">
-                    <label for="Shed C"> Shed C: Milk (Ltrs)</label>
-                    <input id="Shed_C" type="number" min="0" required>
-                  </div>
-
-                  <div id="Csheds">
-                    <lebel for="Shed D"> Shed D: Milk (Ltrs)</lebel>
-                    <input id="Shed_D" type="number" min="0" required>
-                  </div>
-                  <button type="submit">submit</button>
-                  <button id="refresh" type="refresh" onclick="refreshPage();">Refresh</button>
+                        <div id="Csheds">
+                            <lebel for="Shed D"> Shed D: Milk (Ltrs)</lebel>
+                             <input id="Shed_D" type="number" min="0" required>
+                               </div>
+                                   <button type="submit">submit</button>
+                                   <button id="refresh" type="refresh" onclick="refreshPage();">Refresh</button>
 
 
 
-                 </form>
+              </form>
 
-             </div>
+          </div>
 
-              <div class="outputData">
-                <h2 id="dataDisplay">Produce Summary</h2>
-                  <p id="dataOut"></p>
-              </div>
+                                       <div class="outputData">
+                                       <h2 id="dataDisplay">Produce Summary</h2>
+                                       <p id="dataOut"></p>
+                                        </div>
 
 
 
 
 
 
-         </div>  
+        </div>  
 
-    </Section>
-    <script src="assets/index.js"></script>
+      </Section>
+     <script src="assets/index.js"></script>
     
 </body>
 </html>
